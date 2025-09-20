@@ -667,6 +667,10 @@ color: #2e2f42;
 margin-bottom: 8px;
 }
 
+.field-comment{
+margin-bottom: 16px;
+}
+
 .field-checkbox{
 margin-bottom: 24px;
 }
