@@ -35,7 +35,6 @@ display: block;
 
 
 .container {
-display: flex;
 width: 1158px;
 padding-left: 15px;
 padding-right: 15px;
@@ -182,7 +181,7 @@ text-align: center;
 color: #fff;
 margin-bottom: 48px;
 max-width: 496px;
-margin: 0 auto 28px;
+ margin: 0 auto 28px;
 }
 
 .hero-button {
@@ -514,12 +513,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
 margin-bottom: 16px;
+margin-left: 24px;
 }
 
 
 .subscribe-form{
-    display: flex;
-    gap: 24px;
+display: flex;
+gap: 24px;
 }
 
 .input-mail {
@@ -530,6 +530,7 @@ height: 40px;
 background-color: transparent;
 padding: 16px;
 outline: transparent;
+color: #fff;
 }
 
 .input-mail:placeholder{
@@ -540,13 +541,27 @@ color: #fff;
 }
 
 .subscribe-buttom {
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 500;
 border: none;
 border-radius: 4px;
 padding: 8px 24px;
-width: 165px;
+min-width: 165px;
 height: 40px;
 background-color: #4d5ae5;
 color: #fff;
+letter-spacing: 0.04em;
+line-height: 1.5;
+}
+
+.send{
+display: flex;
+justify-content: center;
+align-items: center;
+fill: #fff;
+margin-left: 16px;
 }
 
 
